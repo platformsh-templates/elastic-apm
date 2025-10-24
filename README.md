@@ -1,10 +1,11 @@
-# Elastic APM with Kibana for Platform.sh
+> [!WARNING]
+> **This repository is no longer maintained by our internal teams.**  
+> The template is provided *as is* and will not receive updates, bug fixes, or new features.  
+> You are welcome to contribute on it or fork the repository and modify it for your own use.
+> To deploy this template on [Upsun](https://www.upsun.com), you can use the command [upsun project:convert](https://docs.upsun.com/administration/cli/reference.html#projectconvert)
+> on this codebase to convert the existing `.platform.app.yaml` configuration file to the [Upsun Flex format](https://docs.upsun.com/create-apps/app-reference/single-runtime-image.html).
 
-<p align="center">
-<a href="https://console.platform.sh/projects/create-project?template=https://raw.githubusercontent.com/platformsh/template-builder/master/templates/elastic-apm/.platform.template.yaml&utm_content=elastic-apm&utm_source=github&utm_medium=button&utm_campaign=deploy_on_platform">
-    <img src="https://platform.sh/images/deploy/lg-blue.svg" alt="Deploy on Platform.sh" width="180px" />
-</a>
-</p>
+# Elastic APM with Kibana for Platform.sh
 
 This template builds Elastic APM (Application Performance Monitoring) with a Kibana front-end.  It is intended as a complete self-contained monitoring solution, although authentication needs to be configured for your specific application.
 
